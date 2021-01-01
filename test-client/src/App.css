@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+header {
+  font-family: 'Staatliches', cursive;
+  font-size: 5vh;
+  background-color: #282c34;
+  color: #888;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  width: 100%;
+  display: block;
+  overflow: scroll;
+}
+
+.content {
+  padding: 10px;
+}
+
+code {
+  margin: 0;
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  cursor: pointer;
+  color: #8080dd;
+}
+
+code p {
+  display: inline;
+  color: #40aa40;
+}
+
+code i {
+  font-style: normal;
+  color: #909090;
+}
